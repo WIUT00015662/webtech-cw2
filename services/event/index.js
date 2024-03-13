@@ -86,5 +86,5 @@ let genRanId = (count) => {
     }
     return result
 }
-
+//exporting the functinons
 module.exports = event_service
