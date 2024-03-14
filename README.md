@@ -14,18 +14,17 @@ This web application allows users to create, edit, delete, and view events. User
 5. Open your web browser and go to [http://localhost:3000](http://localhost:3000) to view the application.
 
 ## Application Dependencies
-- Express
-- Express-validator
-- Pug
-- Axios
-- Body-parser
-- Fs
-- Nodemon
-- Path
+- axios
+- body-parser
+- express
+- express-validator
+- fs
+- nodemon
+- pug
 
 ## Links
-- [GitHub Repository] https://github.com/WIUT00015662/webtech-cw2
-- [Hosted Application](link_to_your_hosted_application)
+- [GitHub Repository](https://github.com/WIUT00015662/webtech-cw2)
+- [Hosted Application](https://webtech-cw2-nw31.onrender.com/) (Note that it might take 50 seconds or more for loading!)
 
 ## Project Structure
 
