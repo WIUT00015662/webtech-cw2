@@ -24,47 +24,47 @@ This web application allows users to create, edit, delete, and view events. User
 
 ## Links
 - [GitHub Repository](https://github.com/WIUT00015662/webtech-cw2)
-- [Hosted Application](https://webtech-cw2-nw31.onrender.com/) (Note that it might take 50 seconds or more for loading!)
+- [Hosted Application](https://webtech-cw2-nw31.onrender.com/) (Note that it might take 50 seconds or more for loading! Also, the website will be running for about 30 days only starting from 14th of March)
 
 ## Project Structure
 
-/webtech-cw2 (root folder)
-    /controllers
-        /api
-            /event
-                index.js
-        /web
-            /home
-                index.js
-    /data
-        events_db.json
-    /public
-        /css
-            styles.css
-        /js
-            scripts.js
-    /routes
-        /api
-            /event
-                index.js
-            index.js
-        /web
-            /home
-                index.js
-            index.js
-    /services
-        /event
-            index.js
-    /validators
-        /event
-            index.js
-    /views
-        /home
-            add_update.pug
-            index.pug
-        head.pug
-    .gitignore
-    app.js
-    package-lock.json
-    package.json
+- /webtech-cw2 (root folder)
+    - /controllers
+        - /api
+            - /event
+                - index.js
+        - /web
+            - /home
+                - index.js
+    - /data
+        - events_db.json
+    - /public
+        - /css
+            - styles.css
+        - /js
+            - scripts.js
+    - /routes
+        - /api
+            - /event
+                - index.js
+            - index.js
+        - /web
+            - /home
+                - index.js
+            - index.js
+    - /services
+        - /event
+            - index.js
+    - /validators
+        - /event
+            - index.js
+    - /views
+        - /home
+            - add_update.pug
+            - index.pug
+        - head.pug
+    - .gitignore
+    - app.js
+    - package-lock.json
+    - package.json
   
