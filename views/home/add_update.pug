@@ -1,5 +1,7 @@
 include ../head.pug
 body
+  div.message
+    p This web application was created to fulfill Web Technology module’s requirements and does not represent an actual company or service.
   .form
     h1 #{mode}
     .form-group
@@ -28,7 +30,7 @@ body
     const format = 'DD/MM/YYYY HH:mm'
     const picker = new tempusDominus.TempusDominus(document.getElementById('datetimepicker1'),{
         localization: {
-            'locale': 'fr'
+            'locale': 'ru'
         }
     })
     picker.dates.formatInput = function(date) {

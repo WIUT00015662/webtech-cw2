@@ -1,0 +1,19 @@
+.form-control {
+    margin-bottom: 20px;
+}
+label {
+    margin-left: 10px;
+    font-size: 30px;
+}
+button {
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+input {
+    padding: 0 20px;
+}
+.message {
+    text-align: center;
+    color: red;
+    background-color: aqua;
+}

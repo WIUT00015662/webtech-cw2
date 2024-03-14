@@ -1,12 +1,112 @@
 [
     {
-        "id": "KUmJa",
+        "id": "3lAHh",
         "event": {
-            "title": "Gen-z Party",
-            "description": "Enjoy snack guys",
-            "date": "16/03/2024 01:50",
-            "location": "Aphganistan",
-            "organizer": "Samuel Semedo"
+            "title": "Gen-z party",
+            "description": "Place where everyone has fun",
+            "date": "29/03/2024 02:29",
+            "location": "Istanbul",
+            "organizer": "Prezident"
+        }
+    },
+    {
+        "id": "jDj2E",
+        "event": {
+            "title": "Tech Conference",
+            "description": "Exploring the latest trends in technology",
+            "date": "15/04/2024 10:00",
+            "location": "San Francisco",
+            "organizer": "Tech Innovations Inc."
+        }
+    },
+    {
+        "id": "4sK9P",
+        "event": {
+            "title": "Art Exhibition",
+            "description": "Showcasing contemporary art pieces",
+            "date": "20/04/2024 15:00",
+            "location": "New York City",
+            "organizer": "Artists Collective"
+        }
+    },
+    {
+        "id": "9hNk5",
+        "event": {
+            "title": "Fitness Bootcamp",
+            "description": "Get fit and healthy with our intense bootcamp sessions",
+            "date": "05/05/2024 08:00",
+            "location": "Los Angeles",
+            "organizer": "FitFam Gym"
+        }
+    },
+    {
+        "id": "pRf8J",
+        "event": {
+            "title": "Music Festival",
+            "description": "Enjoy live performances from top artists",
+            "date": "12/05/2024 18:00",
+            "location": "Austin",
+            "organizer": "Melody Productions"
+        }
+    },
+    {
+        "id": "gHd3T",
+        "event": {
+            "title": "Food Fair",
+            "description": "Indulge in a variety of cuisines from around the world",
+            "date": "18/05/2024 12:00",
+            "location": "London",
+            "organizer": "Foodie Association"
+        }
+    },
+    {
+        "id": "bMm7F",
+        "event": {
+            "title": "Startup Pitch Competition",
+            "description": "Entrepreneurs pitch their innovative ideas to investors",
+            "date": "25/05/2024 09:00",
+            "location": "Berlin",
+            "organizer": "Startup Hub"
+        }
+    },
+    {
+        "id": "tXn2L",
+        "event": {
+            "title": "Fashion Show",
+            "description": "Showcasing the latest trends in fashion",
+            "date": "30/05/2024 19:00",
+            "location": "Paris",
+            "organizer": "Fashionista Magazine"
+        }
+    },
+    {
+        "id": "kLp4W",
+        "event": {
+            "title": "Film Screening",
+            "description": "Exclusive screening of a critically acclaimed movie",
+            "date": "07/06/2024 20:00",
+            "location": "Tokyo",
+            "organizer": "Cinephile Society"
+        }
+    },
+    {
+        "id": "rGj9Q",
+        "event": {
+            "title": "Science Symposium",
+            "description": "Exploring groundbreaking scientific discoveries",
+            "date": "15/06/2024 11:00",
+            "location": "Sydney",
+            "organizer": "Science Academy"
+        }
+    },
+    {
+        "id": "EUMd6",
+        "event": {
+            "title": "Science related party",
+            "description": "Everything related to science",
+            "date": "09/05/2024 02:33",
+            "location": "center of earth",
+            "organizer": "Obama"
         }
     }
 ]

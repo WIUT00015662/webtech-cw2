@@ -18,7 +18,8 @@ router.post("/", addEventValidation(), (req,res)=>{
     //in case of errors
     if (!errors.isEmpty())
     {
-        return res.status(400).json({ error: req.errorMessages.msg });
+        const errorMessages = errors.array().map(error => error.msg);
+        return res.status(400).json({ errors: errorMessages });
     }
     event_controller.create(req,res)
 })
@@ -29,7 +30,8 @@ router.put("/:id", updateEventValidation(), (req,res)=>{
     //in case of errors
     if (!errors.isEmpty())
     {
-        return res.status(400).json({ error: req.errorMessages.msg });
+        const errorMessages = errors.array().map(error => error.msg);
+        return res.status(400).json({ errors: errorMessages });
     }
     event_controller.update(req,res)
 })
@@ -38,7 +40,8 @@ router.delete("/:id", deleteEventValidation(), (req,res) =>{
     const errors = validationResult(req);
     //in case of errors
   if (!errors.isEmpty()) {
-        return res.status(400).json({ error: req.errorMessages.msg });
+    const errorMessages = errors.array().map(error => error.msg);
+    return res.status(400).json({ errors: errorMessages });
   }
   event_controller.delete(req,res)
 })
