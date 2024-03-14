@@ -6,8 +6,8 @@ body
           h1 Events
         .col-md-6.text-end
           a.btn.btn-success(href='/add', role='button') Add      
-      table.table.table-responsive.table-hover.table-striped.table-dark
-        thead
+      table.table.table-responsive.table-striped.table-bordered.table-hover
+        thead.thead-light
           tr
             th(scope="col") ID
             th(scope="col") Title
@@ -27,12 +27,12 @@ script.
         const row = document.createElement('tr');
         const event = t.event
         row.innerHTML = `
-          <td>${t.id}</td>
-          <td>${ticket.title}</td>
-          <td>${ticket.description}</td>
-          <td>${ticket.date}</td>
-          <td>${ticket.location}</td>
-          <td>${ticket.organizer}</td>
+          <th (scope="row")>${t.id}</th>
+          <td>${event.title}</td>
+          <td>${event.description}</td>
+          <td>${event.date}</td>
+          <td>${event.location}</td>
+          <td>${event.organizer}</td>
           <td>
             <button class="btn btn-primary btn-sm" data-id="${t.id}" onclick="window.location.href='/update/${t.id}'">Update</button>
             <button class="btn btn-danger btn-sm" data-id="${t.id}">Delete</button>

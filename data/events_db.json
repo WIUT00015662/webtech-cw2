@@ -1,24 +1,12 @@
 [
     {
-    "id": "event001",
-    "event": {
-      "title": "Example Event",
-      "description": "This is an example event description.",
-      "date": "2024-03-20",
-      "location": "Example Venue",
-      "organizer": "John Doe"
+        "id": "KUmJa",
+        "event": {
+            "title": "Gen-z Party",
+            "description": "Enjoy snack guys",
+            "date": "16/03/2024 01:50",
+            "location": "Aphganistan",
+            "organizer": "Samuel Semedo"
+        }
     }
-    },
-    {
-      "id": "event002",
-      "event": {
-        "title": "Another Event",
-        "description": "Description of another event.",
-        "date": "2024-04-10",
-        "location": "Another Venue",
-        "organizer": "Jane Smith"
-      }
-      
-    }
-  ]
-  
+]
